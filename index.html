@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ruchi Trip Stylish</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background: #f5f5f5;
+      color: #4a4a4a;
+    }
+    header {
+      background: url('https://source.unsplash.com/1600x700/?travel,nature,calm') center/cover no-repeat;
+      color: #ff6f61;
+      text-align: center;
+      padding: 80px 20px;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.2em;
+    }
+    header p {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #ffb6c1;
+    }
+    nav {
+      background: #e0e0e0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav a {
+      color: #4a4a4a;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ff6f61;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      text-align: center;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: #6e6e6e;
+    }
+    p.lead {
+      text-align: center;
+      font-size: 1.15rem;
+      line-height: 1.6;
+      max-width: 700px;
+      margin: 0 auto 40px auto;
+      color: #555555;
+    }
+    .trips {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+      gap: 20px;
+    }
+    .trip-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+      transition: transform 0.3s ease;
+      border: 2px solid #ffb6c1;
+    }
+    .trip-card:hover {
+      transform: translateY(-6px);
+      border-color: #ff6f61;
+    }
+    .trip-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+    .trip-card h3 {
+      margin: 15px;
+      font-weight: 700;
+      color: #333333;
+    }
+    .trip-card p {
+      margin: 0 15px 15px 15px;
+      color: #555555;
+      font-size: 0.95rem;
+    }
+    .contact-section {
+      background: #4a4a4a;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: 50px auto 80px auto;
+    }
+    .contact-section a {
+      display: inline-block;
+      background: #ff6f61;
+      color: white;
+      padding: 14px 32px;
+      border-radius: 30px;
+      font-weight: 700;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background 0.3s ease;
+    }
+    .contact-section a:hover {
+      background: #e65a4c;
+    }
+    footer {
+      text-align: center;
+      color: #999999;
+      padding: 25px 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Ruchi Trip Stylish</h1>
+  <p>Curating journeys with soul, style, and personal touch</p>
+</header>
+
+<nav>
+  <a href="#trips">Trips</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="trips">
+  <h2>Curated Journeys</h2>
+  <p class="lead">Explore some of the handpicked journeys designed for travelers who want more than just sightseeing.</p>
+  <div class="trips">
+    <div class="trip-card">
+      <img src="https://source.unsplash.com/400x300/?kyoto,temple" alt="Kyoto Trip" />
+      <h3>Kyoto Autumn Serenity</h3>
+      <p>Experience the peaceful temples and vibrant fall colors with carefully tailored local experiences.</p>
+    </div>
+    <div class="trip-card">
+      <img src="https://source.unsplash.com/400x300/?switzerland,mountains" alt="Switzerland Trip" />
+      <h3>Swiss Alpine Escape</h3>
+      <p>Enjoy scenic alpine trails, luxury chalets, and cozy Swiss hospitality in a bespoke itinerary.</p>
+    </div>
+    <div class="trip-card">
+      <img src="https://source.unsplash.com/400x300/?rajasthan,fort" alt="Rajasthan Trip" />
+      <h3>Rajasthan Royal Trails</h3>
+      <p>Discover majestic forts, desert camps, and royal culture with a personal travel stylist’s touch.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Ruchi</h2>
+  <p class="lead">Hi, I’m Ruchi — your personal trip stylist. I believe travel is about stories, moments, and soulful experiences. Let’s create a journey that’s uniquely you.</p>
+</section>
+
+<section id="contact">
+  <div class="contact-section">
+    <h2>Let’s Style Your Next Journey</h2>
+    <p>Reach out and start planning your dream trip today.</p>
+    <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener">Chat on WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Ruchi Trip Stylish. All rights reserved.
+</footer>
+
+</body>
+</html>
